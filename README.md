@@ -3,7 +3,7 @@
 
 ## Library App
 
-#### Library application with Admin pannel that provides following features:
+#### Library application with Admin panel that provides following features:
 + Live Search Authors, Books & Clients
 + Create, Edit, Delete Books & Clients
 + Borrow and Return Books

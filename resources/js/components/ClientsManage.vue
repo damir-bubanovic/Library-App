@@ -125,13 +125,13 @@ export default {
 		},
 		clearForm() {
 			var self = this;
-			self.client.id: null,
-			self.client.name: null,
-			self.client.email: null,
-			self.client.card_id: null,
-			self.client.address: null,
-			self.client.phone_number: null,
-			self.client.status: null,
+			self.client.id = null;
+			self.client.name = null;
+			self.client.email = null;
+			self.client.card_id = null;
+			self.client.address = null;
+			self.client.phone_number = null;
+			self.client.status = null;
 		},
 		generateCardId() {
 			const cardId = Array.from({ length: 16 }, () => Math.floor(Math.random() * 10)).join('');

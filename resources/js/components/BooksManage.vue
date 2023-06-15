@@ -111,11 +111,11 @@ export default {
     },
     clearForm() {
     	var self = this;
-			self.book.id: null,
-			self.book.title: null,
-			self.book.author: null,
-			self.book.published_date: null,
-			self.book.due_date: null,
+			self.book.id = null;
+			self.book.title = null;
+			self.book.author = null;
+			self.book.published_date = null;
+			self.book.due_date = null;
     },
 		save() {
 			var self = this;
